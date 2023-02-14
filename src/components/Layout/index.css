@@ -1,0 +1,16 @@
+/* Write your CSS here */
+.layout-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.header-container {
+  width: 100%;
+}
+
+.footer-container {
+  width: 100%;
+}

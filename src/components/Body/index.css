@@ -1,0 +1,55 @@
+/* Write your CSS here */
+.body-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.left-navbar-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #e2e8f0;
+  padding: 5%;
+  width: 30%;
+  height: 400px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40%;
+  height: 400px;
+  padding: 5%;
+  background-color: #f1f5f9;
+}
+
+.right-navbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #e2e8f0;
+  width: 30%;
+  height: 400px;
+  padding: 5%;
+}
+
+.left-navbar-list {
+  list-style-type: none;
+}
+
+.right-navbar-list {
+  list-style-type: none;
+}
+
+.right-navbar-item {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #64748b;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
